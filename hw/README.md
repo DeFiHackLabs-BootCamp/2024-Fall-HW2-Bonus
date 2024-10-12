@@ -1,66 +1,16 @@
-## Foundry
+# DeFiHackLabs BootCamp - Week2 Homework Bonus
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+> [!WARNING]
+> DO NOT MODIFY THE `DeFiHackLabsVaultBase.t.sol` FILES, OR YOU WILL GET ZERO POINTS FROM THIS CHALLENGE
 
-Foundry consists of:
+### Task 1 - DeFiHackLabsVault Again
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+After the shocking breach of their vault, the DeFiHackLabs community quickly sprang into action. Alex, Alice, Bill, Louis and Sun identified the vulnerability in `DeFiHackLabsVault` and applied an emergency fix. 💡🚨
 
-## Documentation
+Though some funds were lost, they now believe the situation is under control, and further losses have been prevented thanks to their quick response and teamwork. 💪💼
 
-https://book.getfoundry.sh/
+But little do they know… another critical vulnerability remains hidden in the vault. And this time, it could lead to a complete wipeout of the remaining funds. 😈💥
 
-## Usage
+Your mission: exploit the flaw and drain the entire `DeFiHackLabsVault` of its funds before the voting period ends!
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Can you uncover this hidden flaw and drain all the funds from `DeFiHackLabsVault` again? 🕵️‍♂️💸
